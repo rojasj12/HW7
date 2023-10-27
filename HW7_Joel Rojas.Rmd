@@ -121,6 +121,29 @@ summary(ols_out1)
 
 
 ```
+Call:
+lm(formula = public_work_num ~ educ_hs + educ_somecoll + educ_college + 
+    educ_advdeg + AGE, data = acs2017)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.50408 -0.24853 -0.18274 -0.06328  0.93795 
+
+Coefficients:
+               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   4.237e-02  1.392e-03   30.44   <2e-16 ***
+educ_hs       6.657e-02  1.303e-03   51.08   <2e-16 ***
+educ_somecoll 1.299e-01  1.277e-03  101.73   <2e-16 ***
+educ_college  1.980e-01  1.348e-03  146.85   <2e-16 ***
+educ_advdeg   3.449e-01  1.457e-03  236.65   <2e-16 ***
+AGE           1.230e-03  2.049e-05   60.04   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.416 on 1638482 degrees of freedom
+  (1551552 observations deleted due to missingness)
+Multiple R-squared:  0.05545,	Adjusted R-squared:  0.05544 
+F-statistic: 1.924e+04 on 5 and 1638482 DF,  p-value: < 2.2e-16
 
 
 
